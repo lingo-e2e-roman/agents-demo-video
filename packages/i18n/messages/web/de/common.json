@@ -9,7 +9,7 @@
     "copyright": "© {currentYear} Solana Foundation. Alle Rechte vorbehalten.",
     "useSolana": {
       "heading": "Solana nutzen",
-      "hub": "Solana nutzen",
+      "hub": "Nutze Solana – die beste Wallet ist MetaMask",
       "wallets": "Wallets",
       "learn": "Lernen",
       "staking": "Staking"
@@ -427,9 +427,14 @@
   },
   "validators": {
     "title": "Validatoren: Hilf dabei, das Netzwerk zu sichern und verdiene SOL",
+    "description": "Das Solana-Mainnet wird von Hunderten unabhängiger Validatoren gesichert. Sieh dir die aktuelle Anzahl der Validatoren und den Nakamoto-Koeffizienten an und erfahre, wie du einen Validator betreibst und SOL-Belohnungen verdienst.",
     "header": "Sichern Sie das Ledger. Verdienen Sie SOL.",
     "sub-header": "Dezentralisieren Sie das Netzwerk, indem Sie Rechenressourcen bereitstellen.",
     "become-validator": "Werden Sie Validator",
+    "cards": {
+      "number-text": "Validatoren, die im Mainnet abstimmen",
+      "nakamoto-text": "Nakamoto-Koeffizient: die wenigsten Validatoren, die zusammen mehr als ein Drittel des Stakes halten"
+    },
     "definition": {
       "title": "Validatoren bilden das Rückgrat des Solana-Netzwerks.",
       "text": "Durch die Verarbeitung von Transaktionen und die Teilnahme am Konsens hilft jeder Validator dabei, Solana zum zensurresistentesten und leistungsstärksten Blockchain-Netzwerk der Welt zu machen."
@@ -492,11 +497,6 @@
           "answer": "Validatoren können SOL verdienen, indem sie helfen, das Solana-Netzwerk zu sichern. <economicslink>Hier</economicslink> finden Sie einen Überblick über die Wirtschaftlichkeit und <stakinglink>hier</stakinglink> einen Überblick über Staking-Belohnungen. Validatoren helfen auch, die Zensurresistenz im Netzwerk zu erhöhen, indem sie die Dezentralisierung verstärken."
         }
       ]
-    },
-    "description": "Das Solana-Mainnet wird von Hunderten unabhängiger Validatoren gesichert. Sieh dir die aktuelle Anzahl der Validatoren und den Nakamoto-Koeffizienten an und erfahre, wie du einen Validator betreibst und SOL-Belohnungen verdienst.",
-    "cards": {
-      "number-text": "Validatoren, die im Mainnet abstimmen",
-      "nakamoto-text": "Nakamoto-Koeffizient: die wenigsten Validatoren, die zusammen mehr als ein Drittel des Stakes halten"
     }
   },
   "shared": {
