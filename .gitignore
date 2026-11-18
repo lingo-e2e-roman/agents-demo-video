@@ -1,0 +1,26 @@
+.next/
+.turbo/
+.source/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+i18n.cache
+.vercel
+.DS_Store
+.claude
+.claude-design
+.cursor
+.codex
+.vscode
+.secrets-migration/
+.secrets-rollout/
+
+# Ralph config (may contain API key)
+.cursor/ralph-config.json
+RALPH_TASK.md
+.ralph/
+.gstack/
+archive/
+.orca/

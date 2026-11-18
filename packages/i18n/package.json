@@ -1,0 +1,30 @@
+{
+  "name": "@workspace/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "lint": "oxlint . --max-warnings 0 && oxfmt --check .",
+    "lint:fix": "oxlint --fix . && oxfmt .",
+    "check-types": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "node ../../scripts/clean.mjs ."
+  },
+  "devDependencies": {
+    "@workspace/config-oxlint": "workspace:*",
+    "@workspace/config-typescript": "workspace:*",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.0.14",
+    "@types/react-dom": "^19.0.6",
+    "typescript": "5.8.3",
+    "vitest": "catalog:"
+  },
+  "dependencies": {
+    "next": "catalog:",
+    "next-intl": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  }
+}

@@ -1,0 +1,13 @@
+/* Hero and filter-bar buttons have a fixed width; labels must fit on one line. */
+.btn {
+  display: inline-flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn-primary {
+  width: 160px;
+}
+.btn-sm {
+  width: 120px;
+}

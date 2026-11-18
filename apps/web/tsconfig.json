@@ -1,0 +1,18 @@
+{
+  "extends": "@workspace/config-typescript/nextjs.json",
+  "compilerOptions": {
+    "incremental": true,
+    "noUncheckedIndexedAccess": false,
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/sitemap": [
+        "../../packages/sitemap/src/index.ts"
+      ],
+      "@/*": ["./src/*"],
+      "@@/*": ["./*"]
+    },
+    "types": ["next", "node", "vitest/globals", "@testing-library/jest-dom"]
+  },
+  "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", ".next/types/**/*.ts"],
+  "exclude": ["node_modules", "node_modules_dev", "node_modules_prod", "dist"]
+}

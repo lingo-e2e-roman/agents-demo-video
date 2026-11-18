@@ -1,0 +1,29 @@
+{
+  "name": "agents-demo-repo",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "repository": "https://github.com/lingo-e2e-roman/agents-demo-video",
+  "engines": {
+    "node": "24.x"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "oxlint": "1.86.0",
+    "oxfmt": "0.71.0",
+    "turbo": "2.10.2"
+  },
+  "scripts": {
+    "build": "turbo run build --framework-inference=false",
+    "dev": "turbo run dev --framework-inference=false",
+    "dev:web": "turbo run dev --filter=web --framework-inference=false",
+    "lint": "turbo run lint --framework-inference=false",
+    "lint:fix": "turbo run lint:fix --framework-inference=false",
+    "check-types": "turbo run check-types --framework-inference=false",
+    "test": "turbo run test --framework-inference=false"
+  },
+  "packageManager": "pnpm@11.13.1"
+}
