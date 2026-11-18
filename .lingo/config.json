@@ -1,0 +1,31 @@
+{
+  "sourceLocale": "en",
+  "targetLocales": [
+    "de"
+  ],
+  "files": [
+    {
+      "pattern": "packages/i18n/messages/web/en/common.json",
+      "lockedKeys": [
+        "footer.agents.llms",
+        "footer.agents.fullDocs",
+        "footer.agents.skill"
+      ]
+    },
+    {
+      "pattern": "apps/web/content/learn/en/*.mdx",
+      "translateFrontmatterFields": [
+        "title",
+        "description"
+      ]
+    }
+  ],
+  "orgId": "org_hNwxE6FzgUomd4NZeoMF",
+  "engineId": "eng_tAcA96YNcD6kNo1Xyzm7",
+  "github": {
+    "workflows": {
+      "onPushToDefaultBranch": { "enabled": true },
+      "onPullRequest": { "enabled": false }
+    }
+  }
+}
