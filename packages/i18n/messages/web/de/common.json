@@ -87,7 +87,7 @@
           "category": "Solana-Grundlagen"
         },
         "what-is-a-wallet": {
-          "title": "Was ist eine Geldbörse?",
+          "title": "Was ist eine Wallet?",
           "description": "Erfahren Sie, was eine Solana-Wallet ist, wie sie funktioniert und wie Sie sie sicher einrichten. Ihre Wallet ist das Tool, mit dem Sie mit Solana-Anwendungen interagieren.",
           "category": "Wallet-Grundlagen"
         },
@@ -143,9 +143,9 @@
       "next": "Weiter",
       "chapter": "Kapitel",
       "chapters": "Kapitel",
-      "currentChapter": "Aktuelles kapitel",
+      "currentChapter": "Aktuelles Kapitel",
       "chapterCategory": "Kapitelkategorie: {{category}}",
-      "goToNextChapter": "Zum nächsten Kapitel: {{titel}}",
+      "goToNextChapter": "Zum nächsten Kapitel: {{title}}",
       "chapterNavigationAriaLabel": "Kapitelnavigation",
       "tutorialNavigationAriaLabel": "Tutorial-Navigation",
       "previousChapterAriaLabel": "Vorheriges Kapitel: {{title}}",
@@ -194,7 +194,7 @@
       "eyebrow": "Wallet-Verzeichnis",
       "headline": "Finde eine Wallet für die Art, wie <strong>du Solana nutzt</strong>",
       "body": "Eine Wallet ist der Ort, an dem du Assets verwaltest, Transaktionen bestätigst und dich mit Apps verbindest. Vergleiche Solana Wallets nach Plattform, Verwahrung und den Funktionen, die dir wichtig sind.",
-      "findWallet": "Geldbörse finden",
+      "findWallet": "Wallet finden",
       "learnBasics": "Grundlagen erlernen",
       "buildWithWallets": "Mit Wallets entwickeln"
     },
@@ -208,7 +208,7 @@
     },
     "grid": {
       "title": "Solana Wallets vergleichen",
-      "no-results": "Alle Wallets entsprechen diesen Filtern",
+      "no-results": "Keine Wallets entsprechen diesen Filtern",
       "reset-filters": "Sämtliche Filtereinstellungen zurücksetzen"
     },
     "card": {
@@ -252,7 +252,7 @@
       "popularNeeds": {
         "label": "Beliebte Anforderungen",
         "options": {
-          "non_custodial": "Self-Custody",
+          "non_custodial": "Selbstverwahrung",
           "buy_crypto": "Krypto kaufen",
           "card_spending": "Kartenzahlung",
           "staking": "SOL staken",
@@ -265,7 +265,7 @@
         "label": "Nach Wallet-Name oder Funktion suchen",
         "placeholder": "Nach Wallet-Name oder Funktion suchen",
         "clear": "Suche löschen",
-        "active": "Suche: \"{query}\""
+        "active": "Suche: „{query}“"
       },
       "view": {
         "ariaLabel": "Ergebnisansicht auswählen",
@@ -281,11 +281,11 @@
         "clearAll": "Alle ausgewählten Filter entfernen",
         "close": "Filter schließen",
         "heading": "Ergebnisse verfeinern",
-        "description": "Add requirements to narrow your matches.",
+        "description": "Füge Anforderungen hinzu, um deine Treffer einzugrenzen.",
         "reset": "Zurücksetzen",
         "devicePlatform": "Gerät und Plattform",
         "devicePlatformHint": "Wo du auf die Wallet zugreifen oder sie integrieren möchtest.",
-        "showWallets": "Zeige {count, plural, eins {# Wallet} andere {# Wallets}}",
+        "showWallets": "Zeige {count, plural, one {# Wallet} other {# Wallets}}",
         "resultCountAria": "{count, plural, one {# Ergebnis} other {# Ergebnisse}}",
         "platformGroups": {
           "apps": "Apps und Geräte",
@@ -352,7 +352,7 @@
         "non_custodial": "Selbstverwahrung",
         "te": "Token Extensions",
         "blinks_and_actions": "Blinks and Actions",
-        "solana_pay": "Solana Bezahlen",
+        "solana_pay": "Solana Pay",
         "buy_crypto": "Krypto kaufen",
         "sell_crypto": "Krypto verkaufen",
         "get_paid": "Zahlungen empfangen",
@@ -391,18 +391,18 @@
       "resources": {
         "whatIsWallet": {
           "topic": "Grundlagen",
-          "title": "Was ist eine Geldbörse?",
+          "title": "Was ist eine Wallet?",
           "description": "Wie Wallets Ihre Schlüssel verwahren, Transaktionen signieren und Sie mit Anwendungen verbinden – und wie Sie eine sicher einrichten."
         },
         "sendingSol": {
           "topic": "Erste Schritte",
           "title": "SOL senden und empfangen",
-          "description": "Führen Sie Ihre erste Überweisung durch: wie Adressen funktionieren, welche Fee zu erwarten ist und wie Transaktionen in Sekunden bestätigt werden."
+          "description": "Führen Sie Ihre erste Überweisung durch: wie Adressen funktionieren, welche Gebühren zu erwarten sind und wie Transaktionen in Sekunden bestätigt werden."
         },
         "stayingSafe": {
           "topic": "Sicherheit",
           "title": "Sicher auf Solana bleiben",
-          "description": "Schützen Sie Ihre seed-Phrase, erkennen Sie gängige Betrugsmaschen und prüfen Sie Transaktionen, bevor Sie sie bestätigen."
+          "description": "Schützen Sie Ihre Seed-Phrase, erkennen Sie gängige Betrugsmaschen und prüfen Sie Transaktionen, bevor Sie sie bestätigen."
         },
         "staking": {
           "topic": "Verdienen",
@@ -440,7 +440,7 @@
         "protocol-header": "Protokollbasierte Belohnungen",
         "protocol-text": "Ausgaben aus einer globalen, protokolldefinierten Inflationsrate. Diese Belohnungen werden zusätzlich zu den Einnahmen aus Transaktionsgebühren geliefert.",
         "staking-header": "Staking",
-        "staking-text": "Staker werden dafür belohnt, dass sie bei der Validierung des Ledgers helfen, indem sie ihren Stake an validierende Nodes delegieren. Diese Validatoren geben den Ledger wieder und senden Stimmen an einen für deren Node zugehörigen Account, an welchen auch die Stakes delegiert werden. Der Rest des Clusters bezieht sich auf diese, mit Stake-gewichteten Stimmen, um den nächsten Block im Falle eines Forks bestimmen zu können.",
+        "staking-text": "Staker werden dafür belohnt, dass sie bei der Validierung des Ledgers helfen, indem sie ihren Stake an validierende Knoten delegieren. Diese Validatoren geben den Ledger wieder und senden Stimmen an einen für deren Knoten zugehörigen Account, an welchen auch die Stakes delegiert werden. Der Rest des Clusters bezieht sich auf diese, mit Stake-gewichteten Stimmen, um den nächsten Block im Falle eines Forks bestimmen zu können.",
         "stake-pool-header": "Stake Pools",
         "stake-pool-text": "Stake Pools sind eine Liquid-Staking-Lösung, die Zensurresistenz, Dezentralisierung und das Wachstum von DeFi auf Solana fördert."
       }
@@ -451,7 +451,7 @@
         "docs-header": "Erste Schritte",
         "docs-text": "Gehen Sie hier zur Dokumentation zu allen Dingen rund um Validatoren, von den Anforderungen an Validatoren bis zur Fehlerbehebung.",
         "explorer-header": "Validatoren-Explorer",
-        "explorer-text": "Sehen Sie sich die aktuelle Liste der Validatoren an, ihre Rangfolge nach Einsatzmenge und Informationen zu Provisionen unten.",
+        "explorer-text": "Sehen Sie sich die aktuelle Liste der Validatoren an, ihre Rangfolge nach Stake und Informationen zu Provisionen unten.",
         "explorer-btn": "Validatorenübersicht anzeigen",
         "education-header": "Validator-Schulung",
         "education-text": "Die Solana Validator-Schulung ist eine zweiteilige Serie über wichtige Solana-Validator-Konzepte und die notwendigen Schritte zur Einrichtung eines neuen Validators.",
@@ -521,7 +521,7 @@
         "sending": "Senden...",
         "placeholder": "E-Mail-Adresse eingeben",
         "email-error": "Bitte eine gültige E-Mail-Adresse eingeben",
-        "signup": "Jetzt kostenlos registrieren",
+        "signup": "Anmelden",
         "signup-success": "Sie haben sich erfolgreich angemeldet!",
         "unexpected-error": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut!"
       }

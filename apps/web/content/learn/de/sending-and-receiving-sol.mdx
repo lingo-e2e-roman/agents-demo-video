@@ -1,0 +1,152 @@
+---
+title: SOL senden und empfangen
+description:
+  Erfahre, wie du SOL-Token sendest und empfängst – die grundlegende Fähigkeit für die Interaktion mit dem Solana-Netzwerk und seinen Anwendungen.
+---
+
+# SOL senden und empfangen
+
+SOL senden und empfangen zu können, ist deine erste praktische Fähigkeit auf Solana. SOL
+ist der native Token des Solana-Netzwerks und wird für Transaktionen, Staking und
+die Interaktion mit Anwendungen verwendet. In diesem Kapitel lernst du, wie Überweisungen funktionieren,
+und führst deine erste Transaktion durch.
+
+## Das lernst du
+
+Am Ende dieses Kapitels wirst du in der Lage sein:
+
+- Deine Wallet-Adresse zu verstehen und sie sicher weiterzugeben
+- SOL an eine andere Wallet zu senden
+- SOL von anderen zu empfangen
+- Den Status einer Transaktion zu prüfen
+- Zu verstehen, was bei einer Überweisung passiert
+
+## Deine Wallet-Adresse verstehen
+
+Deine Wallet-Adresse ist wie deine Kontonummer auf Solana. Sie ist:
+
+- **Öffentlich**: Kann beim Empfang von Guthaben bedenkenlos weitergegeben werden
+- **Einzigartig**: Keine zwei Wallets haben dieselbe Adresse
+- **Dauerhaft**: Ändert sich nicht und läuft nicht ab
+
+Beispieladresse: `7xKXtg2CW87d8V6zXKBq7cM8Y2FPHwzaAkxqEqD7x4rH`
+
+### Deine Adresse weitergeben
+
+Du kannst deine Adresse auf folgende Weise weitergeben:
+
+- **Kopieren/Einfügen**: Klicke in deiner Wallet auf die Schaltfläche „Kopieren“
+- **QR-Code**: Lass andere ihn mit ihrem Smartphone scannen
+- **ENS-/Domainnamen**: Menschenlesbare Namen (wie `yourname.sol`)
+
+## SOL empfangen
+
+![Vierstufiger Ablauf zum Empfangen von SOL: Wallet öffnen, Adresse finden, Adresse teilen, neues Guthaben sehen](/images/learn/receiving_sol.webp)
+
+SOL zu empfangen ist unkompliziert:
+
+1. **Öffne deine Wallet**
+2. **Finde deine Adresse** (wird in der Regel oben angezeigt)
+3. **Teile sie** mit dem Absender
+4. **Warte ein paar Sekunden**, bis die Transaktion abgeschlossen ist
+5. **Sieh zu, wie sich dein neues Guthaben** automatisch aktualisiert
+
+### Was Absender benötigen
+
+Wenn dir jemand SOL sendet, benötigt diese Person nur:
+
+- Deine Wallet-Adresse
+- Den zu sendenden Betrag
+
+Dein Name, dein Standort oder andere persönliche Informationen werden nicht benötigt.
+
+## SOL senden
+
+![Dreistufiger Ablauf zum Senden von SOL: Adresse des Empfängers besorgen, Überweisung starten, bestätigen und senden](/images/learn/sending_sol.webp)
+
+So sendest du SOL an jemand anderen:
+
+### Schritt 1: Die Adresse des Empfängers besorgen
+
+- Bitte den Empfänger, seine Solana-Wallet-Adresse mit dir zu teilen
+- Prüfe doppelt, ob du die richtige Adresse hast
+- Denk daran: Transaktionen können nicht rückgängig gemacht werden
+
+### Schritt 2: Die Überweisung starten
+
+1. Klicke in deiner Wallet auf „Senden“
+2. Füge die Adresse des Empfängers ein
+3. Gib den SOL-Betrag ein
+4. Prüfe die Transaktionsgebühr (in der Regel < 0,001 $)
+
+### Schritt 3: Bestätigen und senden
+
+1. Prüfe alle Details sorgfältig
+2. Bestätige die Transaktion
+3. Warte 1–2 Sekunden bis zum Abschluss
+4. Speichere die Transaktions-ID für deine Unterlagen
+
+## Transaktionsdetails verstehen
+
+Jede Transaktion erzeugt einen Eintrag mit folgenden Angaben:
+
+- **Signatur**: Eindeutige Transaktionskennung
+- **Von/An**: Adressen von Absender und Empfänger
+- **Betrag**: Wie viel SOL überwiesen wurde
+- **Gebühr**: Gezahlte Netzwerkgebühr (in SOL)
+- **Zeitstempel**: Wann die Transaktion stattfand
+- **Status**: Erfolg oder Fehlschlag
+
+Du kannst jede Transaktion in einem Block-Explorer wie Solscan oder Solana
+Explorer einsehen.
+
+## Häufige Fragen
+
+### Wie lange dauern Überweisungen?
+
+In der Regel 1–2 Sekunden. Solana verarbeitet Transaktionen im Vergleich zum
+herkömmlichen Bankwesen extrem schnell.
+
+### Was passiert, wenn ich an die falsche Adresse sende?
+
+Transaktionen sind endgültig und können nicht rückgängig gemacht werden. Prüfe Adressen immer doppelt,
+bevor du sendest.
+
+### Warum brauche ich SOL für Gebühren?
+
+Jede Transaktion erfordert eine kleine Gebühr, um die Netzwerk-Validatoren zu vergüten, die sie
+verarbeiten: eine Grundgebühr von 0,000005 SOL pro Signatur sowie eine optionale Prioritätsgebühr,
+wenn im Netzwerk viel los ist.
+
+### Kann ich auch andere Token als SOL senden?
+
+Ja, aber du brauchst für Transaktionsgebühren immer eine kleine Menge SOL, auch
+wenn du andere Token sendest.
+
+## Praxisübung
+
+Bereit für deine erste Transaktion? So kannst du sicher üben:
+
+1. **Sende einen winzigen Betrag** (z. B. 0,001 SOL) an einen Freund oder eine Freundin
+2. **Lass ihn dir zurücksenden**
+3. **Sieh dir die Transaktion** in einem Block-Explorer an
+4. **Notiere dir die Gebühr** und die Bestätigungszeit
+
+So wirst du mit minimalen Beträgen sicher im Umgang mit dem Ablauf.
+
+## Bewährte Vorgehensweisen für Transaktionen
+
+- **Fang klein an**, wenn du an eine neue Adresse sendest
+- **Speichere wichtige Adressen** im Adressbuch deiner Wallet
+- **Bewahre Transaktionsbelege auf** – für Steuern oder deine persönliche Übersicht
+- **Prüfe Adressen doppelt** – vor allem die ersten und letzten 4 Zeichen
+- **Behalte beim Senden den aktuellen SOL-Preis im Blick**
+
+## Wie geht es weiter?
+
+Jetzt, da du SOL senden und empfangen kannst, bist du bereit, erweiterte
+Funktionen zu entdecken. Im nächsten Kapitel lernen wir das Staking kennen – eine Möglichkeit, Belohnungen zu verdienen,
+indem du hilfst, das Solana-Netzwerk zu sichern.
+
+Denk daran: Jeder Experte war einmal Anfänger. Nimm dir Zeit, beginne mit kleinen
+Beträgen und gewinne durch Übung Sicherheit.
